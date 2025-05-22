@@ -1,6 +1,8 @@
 # DirectX SDK Samples
 
-> I have migrated this content to a more 'official' location on GitHub: https://github.com/microsoft/DirectX-SDK-Samples. This repo will be deleted in a few months.
+> I've created an 'official' location to host the legacy DirectX SDK Samples on GitHub: https://github.com/microsoft/DirectX-SDK-Samples. These are all the original samples updated to use the `Microsoft.DXSDK.D3DX` NuGet package to get the D3DX9, D3DX10, and D3DX11 library.
+
+> This repo contains only a subset of legacy DirectX SDK samples. These were reworked extensively to remove all use of legacy D3DX11, modernize the C++ code, and generally have been 'mucked with' for years. I'm keeping these around for reference as they are significantly different than the ones in the legacy DirectX SDK. I renamed this repo to make it distinct from a fork of the Microsoft org repo.
 
 This repo contains Direct3D 11, XInput, and XAudio2 samples that originally shipped in the legacy DirectX SDK. These are all **Windows desktop** applications for Windows 7 Service Pack 1 or later.
 
@@ -10,8 +12,6 @@ They have all been cleaned up to build using the Windows 10 SDK, and _DO NOT_ re
 * [Where is the DirectX SDK (2021 Edition)?](https://aka.ms/dxsdk)
 * [DirectX SDK Samples Catalog](https://walbourn.github.io/directx-sdk-samples-catalog/)
 * [The Zombie DirectX SDK](https://aka.ms/AA4gfea)
-
-> The remainder of the legacy DirectX SDK samples for Direct3D 10, Direct3D 9, etc. can be found [directx-sdk-legacy-samples](https://github.com/walbourn/directx-sdk-legacy-samples). These make use of the Microsoft.DXSDK.D3DX NuGet so also _DO NOT_ require the legacy DirectX SDK to build.
 
 ## Notices
 
